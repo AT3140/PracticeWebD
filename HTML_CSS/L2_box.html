@@ -1,0 +1,37 @@
+<!--Box Model-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 8px solid black;
+            padding: 2%;
+            height: 600px;
+            width: 600px;
+            background-color: red;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #enclosure{
+            height: 100%; /*100% of the content area*/
+            width: 100%; /*100% of the content area*/
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div id="enclosure">
+            This CSS class .centered-div sets the &lt;div> to have a specific width, height, and background color. The position: absolute; along with top: 50%; and left: 50%; properties are used to position the <div> at 50% from the top and left of its container.
+            The transform: translate(-50%, -50%); rule moves the &lt;div> element up and left by 50% of its own width and height, respectively, effectively centering it within its parent container.
+            Adjust the width, height, and other styles as needed for your specific layout requirements.<br><br>
+            This is the content area
+        </div>
+    </div>
+</body>
+</html>
