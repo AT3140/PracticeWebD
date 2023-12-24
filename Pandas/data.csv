@@ -1,0 +1,8 @@
+Product,Quantity,Price,Date
+Product A,10,25.99,2023-08-01
+Product B,5,12.49,2023-08-01
+Product A,7,25.99,2023-08-02
+Product C,3,9.99,2023-08-02
+Product B,8,12.49,2023-08-03
+Product A,12,25.99,2023-08-03
+Product C,4,9.99,2023-08-04
