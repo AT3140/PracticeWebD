@@ -5,6 +5,12 @@ CREATE table klm(
     name varchar(255)
 );
 
+DROP TABLE klm;
+
+RENAME TABLE
+	data_tableau TO tableau_data,
+    market_data TO sales;
+
 INSERT INTO klm (valid, zone,  name, score)
 	values (true, 'delhi', 'raghav', 99);
 DELETE FROM klm where id = 2;
@@ -22,9 +28,14 @@ ALTER TABLE klm
 	DROP PRIMARY KEY;
 ALTER TABLE klm 
 	MODIFY id int primary key auto_increment;
+ALTER TABLE klm 
+	RENAME COLUMN score to marks;
+ALTER TABLE test 
+	RENAME klm;
 
 UPDATE klm SET score = 100 WHERE id = 1; 
 
 select * from klm;
+select sum(marks) from klm;
 
 desc klm;
