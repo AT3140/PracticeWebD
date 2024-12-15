@@ -1,4 +1,11 @@
 // Sequence Containers
+/**
+ * vector : initialization, iteration, size/capacity, sort (with/without comparator), push/pop, replace/emplace at given position/value, remove given value
+ *
+ * */
+
+
+
 #include <iostream>
 #include <vector>
 #include <deque>
